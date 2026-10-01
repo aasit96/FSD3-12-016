@@ -20,4 +20,23 @@ script{
     - REST API uses (get,post,pit,patch,delete) method to communicate
     with client
     - any brower can check only get method
-    - for other method type we use third party API Tester lke postman,thunder client ,
+    - for other method type we use third party API Tester lke postman,thunder client
+
+    # Request type
+    get all,get by id
+     Get: /api/products   -> get all 
+     Get:/api/products/101  -> get by id
+
+     post (add product)
+     Post:/api/products (data will be share by echo api body section)
+
+     Put/Patch(modify in products)
+     Put/Patch: /api/product/201
+
+    Delete(remove product)
+    Delete: /api/products/110
+
+    # export
+    
+      
+     
