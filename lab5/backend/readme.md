@@ -38,6 +38,13 @@ app.get("/", (req, res) => {
 app.listen(4444, () => console.log(`prg1 is running at 4444`));
 
      ```
+
+     # static info
+     In express we can add any static html pages with the help of express.staticbuild
+
+     # express supports middleware,when we execute some functions before server execution then we use middleware
+     
+
      
  
 
